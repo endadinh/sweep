@@ -1,0 +1,17 @@
+.App{
+    background-color: #443065;
+    min-height: 100vh;
+    width: 100vw;
+    overflow: auto;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+
+    // fonts
+    @import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+}
+
+.empty{
+    height: 500px;
+}
