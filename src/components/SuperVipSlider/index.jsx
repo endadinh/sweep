@@ -31,7 +31,7 @@ export default function SuperVipSlider() {
     <div className="super-slider" ref={sliderComponent}>
       {/* HEADER */}
       <div className="header">
-        oekoekokeoekoe
+        skill oke chua a chien
       </div>
 
       {/* SLIDER */}
@@ -43,40 +43,40 @@ export default function SuperVipSlider() {
           }}>
 
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/crypto-com-coin-cro-token-symbol-cryptocurrency-logo-icon-isolated-white-background-vector-illustration-224951773.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/tsFcezlL_400x400.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/Dash_logo.png" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/11581880_3.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/st,small,507x507-pad,600x600,f8f8f8.webp" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/eb2349c3-b2f8-4a93-a286-8f86a62ea9d8.png" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/st,small,507x507-pad,600x600,f8f8f8.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/crypto-com-coin-cro-token-symbol-cryptocurrency-logo-icon-isolated-white-background-vector-illustration-224951773.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/tsFcezlL_400x400.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/Dash_logo.png" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb5d009c2e31f79095_bottom_d1.jpg" alt="" />
+            <img src="./images/11581880_3.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccff5645554f77ef3533_bottom_d6.jpg" alt="" />
+            <img src="./images/st,small,507x507-pad,600x600,f8f8f8.webp" alt="" />
           </div>
         </div>
       </div>
@@ -85,40 +85,34 @@ export default function SuperVipSlider() {
       <div className="super-slider-content">
         <div className="super-slider-content-wrap" style={{transform: `translateX(-${percent}%)`,transformStyle: 'preserve-3d'}}>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
+            <img src="./images/tsFcezlL_400x400.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
+            <img src="./images/Dash_logo.png" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
+            <img src="./images/11581880_3.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
+            <img src="./images/st,small,507x507-pad,600x600,f8f8f8.webp" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
+            <img src="./images/tsFcezlL_400x400.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
+            <img src="./images/crypto-com-coin-cro-token-symbol-cryptocurrency-logo-icon-isolated-white-background-vector-illustration-224951773.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
+            <img src="./images/Dash_logo.png" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
+            <img src="./images/11581880_3.jpeg" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
+            <img src="./images/st,small,507x507-pad,600x600,f8f8f8.webp" alt="" />
           </div>
           <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
-          </div>
-          <div className="super-slider-img">
-            <img src="./images/61cbccfb347ea6066f0d3c02_bottom_d4.jpg" alt="" />
-          </div>
-          <div className="super-slider-img">
-            <img src="./images/61cbccfbb7eba47873f9f4f9_bottom_d2.jpg" alt="" />
+            <img src="./images/tsFcezlL_400x400.jpeg" alt="" />
           </div>
         </div>
       </div>

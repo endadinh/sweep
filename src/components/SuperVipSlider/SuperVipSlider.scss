@@ -46,5 +46,13 @@
     &-img{
         margin: 10px;
         border-radius: 10px;
+        height: 300px;
+        width: 300px;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+            width: auto;
+        }
     }
 }
