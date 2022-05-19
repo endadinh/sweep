@@ -31,7 +31,7 @@ export default function SuperVipSlider() {
     <div className="super-slider" ref={sliderComponent}>
       {/* HEADER */}
       <div className="header">
-        oekoekokeoekoek
+        oekoekokeoekoe
       </div>
 
       {/* SLIDER */}
