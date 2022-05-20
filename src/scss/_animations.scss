@@ -1,0 +1,29 @@
+@keyframes swing {
+    0% { transform: rotate(3deg); }
+    100% { transform: rotate(-3deg); }
+}
+
+@keyframes glowLight {
+  0%   {
+	box-shadow: rgba(168, 176, 55, 0.451) 10px 40px 29px
+  }
+  100% {
+	box-shadow: rgb(174, 176, 55) 10px 40px 40px
+  }
+}
+
+@keyframes ball-breathing{
+    0% {
+        box-shadow:
+            0 0 5px 5px #fff,
+            0 0 25px 5px rgba(218, 239, 57, 0.558),
+            0 0 45px 20px rgba(199, 212, 113, 0.434);
+    }
+
+    100%{
+        box-shadow:
+            0 0 10px 10px #fff,
+            0 0 50px 30px rgba(218, 239, 57, 0.558),
+            0 0 80px 55px rgba(199, 212, 113, 0.434);
+    }
+}

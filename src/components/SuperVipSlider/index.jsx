@@ -39,7 +39,7 @@ export default function SuperVipSlider() {
         <div 
           className="super-slider-content-wrap" 
           style={{
-            transform: `translate(${-63+percent}%)`
+            transform: `translateX(${-63+percent}%)`
           }}>
 
           <div className="super-slider-img">

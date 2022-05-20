@@ -1,0 +1,89 @@
+.background-intro{
+    // background-image: url(../../../public/images/br.jpg);
+    // background-position: center center;
+    // background-size: cover;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    z-index: 0;
+
+    &-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+
+        &-wrap{
+            position: relative;
+            height: 100%;
+        }
+
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    & .lamp{
+        position: absolute;
+        animation: swing ease-in-out 1s infinite alternate;
+        transform-origin: center 5px;
+        width: 4%;
+        min-width: 60px;
+
+        &::after{
+            content: "";
+            position: absolute;
+            bottom: 20%;
+            left: 50%;
+            transform: translateX(-50%);
+            animation: ball-breathing 1s infinite alternate;
+            height: 1px;
+            width: 1px;
+            background-color: rgb(245, 242, 207);
+            border-radius: 50%;
+        }
+
+        &--1{
+            top: 27%;
+            left: 8%;
+        }
+
+        &--2{
+            top: 29.5%;
+            left: 48.5%;
+            animation-delay: 1s;
+        }
+
+        &--3{
+            top: 60.1%;
+            left: 77.8%;
+            animation-delay: .5s;
+        }
+        
+        &--4{
+            top: 17%;
+            left: 35%;
+            animation-delay: .2s;
+        }
+        
+        &--5{
+            top: 56.3%;
+            left: 23.4%;
+            animation-delay: .2s;
+        }
+
+        img{
+            width: 100%;
+            height:auto;
+        }
+    }
+}
