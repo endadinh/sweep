@@ -35,13 +35,16 @@
   box-shadow: 0 0 0vw 0vw yellow;
   animation: drift ease alternate infinite, flash ease infinite;
 }
-.firefly:nth-child(1) {
+.firefly:nth-child(1),
+.firefly:nth-child(16)  {
   animation-name: move1;
 }
-.firefly:nth-child(1)::before {
+.firefly:nth-child(1)::before,
+.firefly:nth-child(16)::before  {
   animation-duration: 15s;
 }
-.firefly:nth-child(1)::after {
+.firefly:nth-child(1)::after,
+.firefly:nth-child(16)::after  {
   animation-duration: 15s, 7854ms;
   animation-delay: 0ms, 751ms;
 }
@@ -113,13 +116,16 @@
     transform: translateX(15vw) translateY(16vh) scale(0.85);
   }
 }
-.firefly:nth-child(2) {
+.firefly:nth-child(2),
+.firefly:nth-child(17) {
   animation-name: move2;
 }
-.firefly:nth-child(2)::before {
+.firefly:nth-child(2)::before,
+.firefly:nth-child(17)::before {
   animation-duration: 16s;
 }
-.firefly:nth-child(2)::after {
+.firefly:nth-child(2)::after,
+.firefly:nth-child(17)::after {
   animation-duration: 16s, 9422ms;
   animation-delay: 0ms, 2461ms;
 }
@@ -194,13 +200,16 @@
     transform: translateX(-43vw) translateY(-43vh) scale(0.31);
   }
 }
-.firefly:nth-child(3) {
+.firefly:nth-child(3),
+.firefly:nth-child(18)  {
   animation-name: move3;
 }
-.firefly:nth-child(3)::before {
+.firefly:nth-child(3)::before,
+.firefly:nth-child(18)::before  {
   animation-duration: 10s;
 }
-.firefly:nth-child(3)::after {
+.firefly:nth-child(3)::after,
+.firefly:nth-child(18)::after  {
   animation-duration: 10s, 9339ms;
   animation-delay: 0ms, 5625ms;
 }
@@ -272,13 +281,16 @@
     transform: translateX(22vw) translateY(44vh) scale(0.57);
   }
 }
-.firefly:nth-child(4) {
+.firefly:nth-child(4),
+.firefly:nth-child(19)  {
   animation-name: move4;
 }
-.firefly:nth-child(4)::before {
+.firefly:nth-child(4)::before,
+.firefly:nth-child(19)::before  {
   animation-duration: 18s;
 }
-.firefly:nth-child(4)::after {
+.firefly:nth-child(4)::after,
+.firefly:nth-child(19)::after  {
   animation-duration: 18s, 10765ms;
   animation-delay: 0ms, 6286ms;
 }
@@ -338,13 +350,16 @@
     transform: translateX(37vw) translateY(46vh) scale(0.64);
   }
 }
-.firefly:nth-child(5) {
+.firefly:nth-child(5) ,
+.firefly:nth-child(20) {
   animation-name: move5;
 }
-.firefly:nth-child(5)::before {
+.firefly:nth-child(5)::before ,
+.firefly:nth-child(20)::before {
   animation-duration: 16s;
 }
-.firefly:nth-child(5)::after {
+.firefly:nth-child(5)::after ,
+.firefly:nth-child(20)::after {
   animation-duration: 16s, 7563ms;
   animation-delay: 0ms, 6240ms;
 }
@@ -419,13 +434,16 @@
     transform: translateX(-14vw) translateY(-26vh) scale(0.9);
   }
 }
-.firefly:nth-child(6) {
+.firefly:nth-child(6) ,
+.firefly:nth-child(21) {
   animation-name: move6;
 }
-.firefly:nth-child(6)::before {
+.firefly:nth-child(6)::before ,
+.firefly:nth-child(21)::before {
   animation-duration: 18s;
 }
-.firefly:nth-child(6)::after {
+.firefly:nth-child(6)::after ,
+.firefly:nth-child(21)::after {
   animation-duration: 18s, 5687ms;
   animation-delay: 0ms, 1421ms;
 }
@@ -515,13 +533,16 @@
     transform: translateX(-15vw) translateY(8vh) scale(0.57);
   }
 }
-.firefly:nth-child(7) {
+.firefly:nth-child(7) ,
+.firefly:nth-child(22) {
   animation-name: move7;
 }
-.firefly:nth-child(7)::before {
+.firefly:nth-child(7)::before ,
+.firefly:nth-child(22)::before {
   animation-duration: 10s;
 }
-.firefly:nth-child(7)::after {
+.firefly:nth-child(7)::after ,
+.firefly:nth-child(22)::after {
   animation-duration: 10s, 10382ms;
   animation-delay: 0ms, 8104ms;
 }
@@ -614,15 +635,18 @@
     transform: translateX(21vw) translateY(-42vh) scale(0.48);
   }
 }
-.firefly:nth-child(8) {
+.firefly:nth-child(8) ,
+.firefly:nth-child(23) {
   animation-name: move8;
 }
 
-.firefly:nth-child(8)::before {
+.firefly:nth-child(8)::before ,
+.firefly:nth-child(23)::before {
   animation-duration: 14s;
 }
 
-.firefly:nth-child(8)::after {
+.firefly:nth-child(8)::after ,
+.firefly:nth-child(23)::after {
   animation-duration: 14s, 8944ms;
   animation-delay: 0ms, 750ms;
 }
