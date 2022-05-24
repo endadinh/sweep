@@ -1,3 +1,112 @@
+@import '../../scss/variables';
+
 .home-header{
+    z-index: 1;
     background-color: transparent;
+    padding-top: 10px;
+    height: 100px;
+
+    &-logo{
+        height: 100%;
+        img{
+            height: 80px;
+            width: auto;
+        }        
+    }
+
+    &-nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        color: $white;
+        padding: 0 10px 0 10px;
+    }
+
+    &-item{
+        font-weight: 700;
+        font-size: 20px;
+        font-style: italic;
+        min-width: 150px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80%;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            color: red;
+            font-weight: 900;
+            font-size: 24px;
+            background: -webkit-linear-gradient(#f58e52, #A30D02);
+            -webkit-background-clip: text;
+            -webkit-text-stroke: 1px rgb(97, 49, 49);
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    &-btns{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    &-btn{
+        position: relative;
+        width: 122px;
+        height: 60px;
+        margin-right: 12px;
+        transition: all 0.2s ease-in-out;
+
+        &:hover{
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+
+        &-bg{
+            // position: absolute;
+            // top: 0;
+            // left: 0;
+            height: 100%;
+            width: auto;
+            img{
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        &-name{
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            color: $white;
+            font-weight: 900;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        &-name-wrap{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 10px;
+        }
+
+        &-name-icon{
+            margin-right: 4px;
+            img{
+                width: 20px;
+            }
+        }
+    }
+
 }

@@ -1,0 +1,76 @@
+// fonts
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+
+.verital-slider{
+    background-color: #fff;
+    transition: all 0.2s linear;
+    transform: translateX(-10px);
+    // padding: 300px 0 200px;
+    position: relative;
+    height: 400px;
+
+    .header{
+        display: flex;
+        margin-bottom: 0;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        font-family: Chewy,sans-serif;
+        color: #25e8d8;
+        font-size: 90px;
+        line-height: 100px;
+        text-align: center;
+        letter-spacing: 1.27px;
+        letter-spacing: 20px;
+        text-shadow: 1px 1px 5px rgb(0 0 0 / 50%);
+        font-weight: 900;
+    }
+
+    &-content{
+        display: flex;
+        width: 100%;
+        overflow: auto;
+        transition: all 0.5s linear;
+    }
+
+    &-content-wrap{
+        display: flex;
+        // transition: all 0.5s ease;
+        will-change: transform;
+        transform: translateY(0px) translateZ(0) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    }
+
+    &-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    &-img{
+        margin: 10px 30px;
+        border-radius: 10px;
+        height: 220px;
+        width: 220px;
+        overflow: hidden;
+
+        img{
+            height: 100%;
+            width: auto;
+        }
+    }
+
+    &-to-scroll{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        overflow-y: auto;
+        background-color: rgba(255, 0, 0, 0.337);
+
+        &-wrap{
+            width: 100%;
+            height: 2000px;
+            background-image: linear-gradient(0deg, #F48D72 10%, #851B9C 90%);
+        }
+    }
+}

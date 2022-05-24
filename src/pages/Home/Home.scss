@@ -1,4 +1,44 @@
+@import '../../scss/utils';
+
 .home{
     position: relative;
     height: 2000px;
+    background: transparent;
+
+    .intro{
+        // display: flex;
+        height: 100vh;
+
+        &-content{
+            flex: 1;
+        }
+       
+        &-title-img{
+            height: 210px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+
+            img{
+                height: 100%;
+                width: auto;
+            }
+        }
+
+        &-title-slogan-wrap{
+            padding: 10px 0px;
+            margin: 0 20px;
+            border: 1px solid rgba(0, 0, 0, 0.302);
+            border-radius: 12px;
+            background-color: rgba(0, 0, 0, 0.305);
+        }
+
+        &-title-slogan{
+            text-align: center;
+            font-size: 30px;
+            font-weight: 900;
+            color: #fff !important;
+        }
+    }
 }

@@ -1,0 +1,9 @@
+.text-gradient{
+    background: -webkit-linear-gradient(#f58e52, #A30D02);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-border{
+    -webkit-text-stroke: 1px rgba(96, 83, 83, 0.778);
+}
